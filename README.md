@@ -5,29 +5,33 @@
 ```
 .
 ├── README.md                 READMEファイル
+├── .dockerignore        
 ├── Dockerfile                Dockerファイル
+├── docker-compose.yml
 ├── notebook                  jupyter notebook
 └── data                      dataファイル
 ```
 
 ## 環境構築
-Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time_Series_Analysis）
+
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time_Series_Analysis）
 ```
 cd Desktop/Darts
 ```
-Dockerによる環境構築
+
+* Dockerによる環境構築（フォルダをマウント：Desktop/Time_Series_Analysis）
 ```
-docker build .
+docker-compose up --build
 ```
-docker run実行（対象フォルダをマウントする／例：Desktop/Time_Series_Analysis）
-```
-docker run -p 8888:8888 -v ~/Desktop/Time_Series_Analysis/:/work --name Time_Series_Analysis <docker image>
-```
-ブラウザーを立ち上げてlocalhost:8888へアクセス
-workフォルダ内が対象フォルダにマウントされている
+
+* ブラウザーを立ち上げてlocalhost:8888へアクセス
+* ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* Darts.ipynb : 時系列解析(Darts)のnotebook
+* Generalized-Linear-Model.ipynb : 状態空間モデルのnotebook
+* Time_Series_Analysis_RegressionModel.ipynb : 回帰問題に落とし込んだnotebook
+* Time_Series_Analysis.ipynb : 時系列モデルのnotebook
+* time_series.ipynb : サンプルnotebook
 
 ## 動作環境
 マシンスペック（Mac)
