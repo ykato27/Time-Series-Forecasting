@@ -16,7 +16,7 @@
 
 * Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time_Series_Analysis）
 ```
-cd Desktop/Darts
+cd Desktop/Time_Series_Analysis
 ```
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Time_Series_Analysis）
