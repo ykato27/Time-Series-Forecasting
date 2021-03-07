@@ -14,9 +14,9 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time_Series_Analysis）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time-Series-Analysis）
 ```
-cd Desktop/Time_Series_Analysis
+cd Desktop/Time-Series-Analysis
 ```
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Time_Series_Analysis）
