@@ -1,4 +1,4 @@
-# Time_Series_Analysis
+# Time-Series-Analysis
 * 時系列解析のプログラム
 
 ## リポジトリ構成
