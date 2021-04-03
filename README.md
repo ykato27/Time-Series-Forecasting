@@ -21,7 +21,7 @@ cd Desktop/Time-Series-Analysis
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Time_Series_Analysis）
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
