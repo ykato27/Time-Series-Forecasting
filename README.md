@@ -9,6 +9,7 @@
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
 ├── notebook                  jupyter notebook
+├── requirements.txt          requirementsファイル
 └── data                      dataファイル
 ```
 
