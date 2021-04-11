@@ -33,6 +33,7 @@ docker-compose up --build
 * Time_Series_Analysis_RegressionModel.ipynb : 回帰問題に落とし込んだnotebook
 * Time_Series_Analysis.ipynb : 時系列モデルのnotebook
 * time_series.ipynb : サンプルnotebook
+* prophet.ipynb : Prophetのnotebook
 
 ## 動作環境
 マシンスペック（Mac)
