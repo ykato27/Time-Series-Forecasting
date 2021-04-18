@@ -1,4 +1,4 @@
-# Time-Series-Analysis
+# Time-Series-Forecasting
 * 時系列解析のプログラム
 
 ## リポジトリ構成
@@ -15,12 +15,12 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time-Series-Analysis）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time-Series-Forecasting）
 ```
-cd Desktop/Time-Series-Analysis
+cd Desktop/Time-Series-Forecasting
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Time_Series_Analysis）
+* Dockerによる環境構築（フォルダをマウント：Desktop/Time-Series-Forecasting）
 ```
 docker-compose up --build
 ```
