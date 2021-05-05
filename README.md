@@ -29,11 +29,11 @@ docker-compose up --build
 * ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* Generalized-Linear-Model.ipynb : 状態空間モデルのnotebook
-* Time_Series_Analysis_RegressionModel.ipynb : 回帰問題に落とし込んだnotebook
-* Time_Series_Analysis.ipynb : 時系列モデルのnotebook
-* time_series.ipynb : サンプルnotebook
-* prophet.ipynb : Prophetのnotebook
+* [Generalized-Linear-Model.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Generalized-Linear-Model.ipynb) : 状態空間モデルのnotebook
+* [Time_Series_Analysis.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time_Series_Analysis.ipynb) : 時系列モデルのnotebook
+* [Time_Series_Analysis_RegressionModel.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time_Series_Analysis_RegressionModel.ipynb) : 回帰問題に落とし込んだnotebook
+* [prophet.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/prophet.ipynb) : Prophetのnotebook
+* [time_series.ipynb](https://github.com/ykato27/Time-Series-Forecasting/tree/main/notebook) : サンプルnotebook
 
 ## 動作環境
 マシンスペック（Mac)
