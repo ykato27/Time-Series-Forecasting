@@ -29,9 +29,11 @@ docker-compose up --build
 * ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* [Generalized-Linear-Model.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Generalized-Linear-Model.ipynb) : 状態空間モデルのnotebook
-* [Time_Series_Analysis.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time_Series_Analysis.ipynb) : 時系列モデルのnotebook
-* [Time_Series_Analysis_RegressionModel.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time_Series_Analysis_RegressionModel.ipynb) : 回帰問題に落とし込んだnotebook
+* [SARIMA-Time-Series-Forecasting.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/SARIMA-Time-Series-Forecasting.ipynb) : SARIMAのnotebook
+* [State-Space-Model-pystan.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/State-Space-Model-pystan.ipynb) : 状態空間モデル（pystan)のnotebook
+* [State-Space-Model-stasmodels.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/State-Space-Model-statsmodels.ipynb) : 状態空間モデル（stasmodels)のnotebook
+* [Time-Series-Analysis-RegressionModel.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time-Series-Analysis-RegressionModel.ipynb) : 回帰問題に落とし込んだnotebook
+* [Time-Series-Forecasting.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time-Series-Forecasting.ipynb) : 時系列モデルのnotebook
 * [prophet.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/prophet.ipynb) : Prophetのnotebook
 * [time_series.ipynb](https://github.com/ykato27/Time-Series-Forecasting/tree/main/notebook) : サンプルnotebook
 
