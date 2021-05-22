@@ -22,7 +22,6 @@ def datatime_transform(data, feature):
     # hour
     data[f"{feature}_hour"] = data[feature].dt.hour
 
-
     # minute
     data[f"{feature}_minute"] = data[feature].dt.minute
 
