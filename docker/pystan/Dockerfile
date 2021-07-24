@@ -1,12 +1,14 @@
 FROM ubuntu:18.04
 
-ENV PYTHON_VERSION 3.8.6
+ENV DEBIAN_FRONTEND=noninteractive
+
+ENV PYTHON_VERSION 3.8.8
 ENV PYTHON_ROOT /tmp/Python/python-$PYTHON_VERSION
 ENV PATH $PYTHON_ROOT/bin:$PATH
 ENV PYENV_ROOT /tmp/.pyenv
 
-WORKDIR /usr/src/app
-ENV DEBIAN_FRONTEND noninteractive
+ARG user_name
+ARG user_email
 
 RUN apt-get update \
     && apt-get install -y locales \
@@ -24,14 +26,24 @@ RUN apt-get update \
     libncursesw5-dev \
     libffi-dev \
     liblzma-dev \
+    libtk8.5 \
+    libgdm-dev \
+    libdb4o-cil-dev \
+    libpcap-dev \
+    cmake \
     vim \
     ssh \
     wget \
+    curl \
+    llvm \
     xz-utils \
     tk-dev \
     git \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
+
+RUN git config --global user.name ${user_name} \
+    && git config --global user.email ${user_email}
 
 # # Python環境構築
 RUN git clone https://github.com/pyenv/pyenv.git $PYENV_ROOT
@@ -41,7 +53,7 @@ RUN rm -rf $PYENV_ROOT
 
 RUN pip install --upgrade pip
 
-COPY requirements.txt ./
+COPY ./prophet/requirements.txt ./
 RUN pip install -r requirements.txt
 
 WORKDIR home/work

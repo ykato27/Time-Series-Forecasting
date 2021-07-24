@@ -27,13 +27,13 @@ def datatime_transform(data, feature):
 
     # second
     data[f"{feature}_second"] = data[feature].dt.second
-    
+
     return data
 
 
 def shift_features(data, feature, n_shift):
-    
-    for i in range(1, n_shift+1):
+
+    for i in range(1, n_shift + 1):
         data[f"{feature}_shift{i}"] = data[feature].shift(i)
-    
+
     return data
