@@ -1,5 +1,6 @@
 # Time-Series-Forecasting
-* 時系列解析のプログラム
+
+- 時系列解析のプログラム
 
 ## リポジトリ構成
 ```
@@ -15,30 +16,35 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time-Series-Forecasting）
+- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time-Series-Forecasting）
+
 ```
 cd Desktop/Time-Series-Forecasting
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Time-Series-Forecasting）
+- Dockerによる環境構築（フォルダをマウント：Desktop/Time-Series-Forecasting）
+
 ```
 docker-compose up --build
 ```
 
-* ブラウザーを立ち上げてlocalhost:8888へアクセス
-* ローカルフォルダがマウントされている
+- ブラウザーを立ち上げてlocalhost:8888へアクセス
+- ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* [SARIMA-Time-Series-Forecasting.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/SARIMA-Time-Series-Forecasting.ipynb) : SARIMAのnotebook
-* [State-Space-Model-pystan.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/State-Space-Model-pystan.ipynb) : 状態空間モデル（pystan)のnotebook
-* [State-Space-Model-stasmodels.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/State-Space-Model-statsmodels.ipynb) : 状態空間モデル（stasmodels)のnotebook
-* [Time-Series-Analysis-RegressionModel.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time-Series-Analysis-RegressionModel.ipynb) : 回帰問題に落とし込んだnotebook
-* [Time-Series-Forecasting.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/Time-Series-Forecasting.ipynb) : 時系列モデルのnotebook
-* [prophet.ipynb](https://github.com/ykato27/Time-Series-Forecasting/blob/main/notebook/prophet.ipynb) : Prophetのnotebook
-* [time_series.ipynb](https://github.com/ykato27/Time-Series-Forecasting/tree/main/notebook) : サンプルnotebook
+
+- SARIMA-Time-Series-Forecasting.ipynb : SARIMAのnotebook
+- State-Space-Model-pystan.ipynb : 状態空間モデル（pystan)のnotebook
+- State-Space-Model-stasmodels.ipynb : 状態空間モデル（stasmodels)のnotebook
+- Time-Series-Analysis-RegressionModel.ipynb : 回帰問題に落とし込んだnotebook
+- Time-Series-Forecasting.ipynb : 時系列モデルのnotebook
+- prophet.ipynb : Prophetのnotebook
+- time_series.ipynb : サンプルnotebook
 
 ## 動作環境
+
 マシンスペック（Mac)
+
 - MacBook Air (Retina, 13-inch, 2018)
 - 1.6 GHz デュアルコアIntel Core i5
 - 8 GB 2133 MHz LPDDR3
