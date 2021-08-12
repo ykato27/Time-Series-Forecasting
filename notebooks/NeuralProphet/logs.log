@@ -1,3 +1,8 @@
-2021-08-10 06:22:29,442; WARNING; nprophet; fit; Parts of code may break if using other than daily data.
-2021-08-10 06:22:29,538; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 8
-2021-08-10 06:22:30,266; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.85E-01
+2021-08-12 01:16:39,344; WARNING; nprophet; fit; Parts of code may break if using other than daily data.
+2021-08-12 01:16:39,380; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/neuralprophet/forecaster.py", line 585, in _train
+    from livelossplot import PlotLosses
+ModuleNotFoundError: No module named 'livelossplot'
+2021-08-12 01:16:39,431; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 8
+2021-08-12 01:16:40,300; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 3.51E-01
