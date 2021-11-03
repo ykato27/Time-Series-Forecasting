@@ -15,5 +15,7 @@ pre-commit==2.11.1
 matplotlib==3.4.2
 seaborn==0.11.1
 scikit-learn==0.24.1
+fbprophet==0.7.1
+pystan==2.19.1.1
 kats
 nb_black
