@@ -6,9 +6,6 @@ services:
     build:
       context: ./docker
       dockerfile: ./prophet/Dockerfile
-      args:
-        user_name: ${user_name}
-        user_email: ${user_email}
     volumes:
       - ./:/work
     working_dir: /work

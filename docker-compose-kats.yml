@@ -1,11 +1,11 @@
 version: "3"
 services:
-  pykalman:
-    container_name: pykalman
-    image: pykalman:1.0
+  kats:
+    container_name: kats
+    image: kats:1.0
     build:
       context: ./docker
-      dockerfile: ./pykalman/Dockerfile
+      dockerfile: ./kats/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work
