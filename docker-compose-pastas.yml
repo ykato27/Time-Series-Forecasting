@@ -1,0 +1,14 @@
+version: "3"
+services:
+  pastas:
+    container_name: pastas
+    image: pastas:1.0
+    build:
+      context: ./docker
+      dockerfile: ./pastas/Dockerfile
+    volumes:
+      - ./:/work
+    working_dir: /work
+    ports:
+      - 8888:8888
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
