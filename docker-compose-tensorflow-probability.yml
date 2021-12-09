@@ -1,0 +1,14 @@
+version: "3"
+services:
+  tensorflow-probability:
+    container_name: tensorflow-probability
+    image: tensorflow-probability:1.0
+    build:
+      context: ./docker
+      dockerfile: ./tensorflow-probability/Dockerfile
+    volumes:
+      - ./:/work
+    working_dir: /work
+    ports:
+      - 8888:8888
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
