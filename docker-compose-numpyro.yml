@@ -1,0 +1,14 @@
+version: "3"
+services:
+  numpyro:
+    container_name: numpyro
+    image: numpyro:1.0
+    build:
+      context: ./docker
+      dockerfile: ./numpyro/Dockerfile
+    volumes:
+      - ./:/work
+    working_dir: /work
+    ports:
+      - 8888:8888
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
